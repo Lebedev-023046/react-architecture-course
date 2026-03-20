@@ -1,0 +1,41 @@
+.card {
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  color: #111827;
+}
+
+.button {
+  margin-left: auto;
+  padding: 6px 12px;
+  background-color: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #dc2626;
+}
